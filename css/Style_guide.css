@@ -1,0 +1,9 @@
+.colour_blocks {
+	height: 70px;
+	width: 90%;
+	line-height: 70px;
+	font-size: 1em;
+	color: #000;
+	padding: 10px;
+	font-family: sans-serif;
+}
