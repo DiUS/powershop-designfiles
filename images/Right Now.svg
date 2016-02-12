@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="376px" height="334px" viewBox="0 0 376 334" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FBDA61" offset="0%"></stop>
+            <stop stop-color="#F16722" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path id="path-4" d="M0,0.427568443 L43.7755814,0.427568443 L43.7755814,40.1162791 L0,40.1162791"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-6" sketch:type="MSArtboardGroup" transform="translate(-28.000000, -88.000000)">
+            <g id="Group-8" sketch:type="MSLayerGroup" transform="translate(28.488372, 88.953488)">
+                <ellipse id="Oval-1" stroke="#979797" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" cx="181.395349" cy="166.27907" rx="166.27907" ry="166.27907"></ellipse>
+                <rect id="Rectangle-5" fill="#898D90" sketch:type="MSShapeGroup" x="0" y="166.27907" width="175.581395" height="166.27907"></rect>
+                <circle id="Oval-1" fill="#D8D8D8" filter="url(#filter-2)" sketch:type="MSShapeGroup" cx="181.395349" cy="166.860465" r="157.55814"></circle>
+                <text id="1.5" sketch:type="MSTextLayer" font-family="Avenir Next Condensed" font-size="162.790698" font-style="condensed" font-weight="420" letter-spacing="-11.3000002" fill="#4F5D68">
+                    <tspan x="87.2093023" y="222.883721">1.</tspan>
+                    <tspan x="180.190697" y="222.883721">5</tspan>
+                </text>
+                <rect id="Rectangle-3" fill="#9EA7B0" sketch:type="MSShapeGroup" x="268.023256" y="148.255814" width="54.6511628" height="33.1395349" rx="7"></rect>
+                <text id="KW" sketch:type="MSTextLayer" font-family="Avenir Next Condensed" font-size="19.1860465" font-style="condensed" font-weight="bold" sketch:alignment="middle" letter-spacing="1.65000033" fill="#FCFCFC">
+                    <tspan x="281.863081" y="171.325581">KW</tspan>
+                </text>
+                <text id="NET-ENERGY" sketch:type="MSTextLayer" font-family="Avenir Next Condensed" font-size="14.5348837" font-style="condensed" font-weight="420" sketch:alignment="middle" fill="#9E9E9E">
+                    <tspan x="150.559593" y="67.3255814">NET ENERGY</tspan>
+                </text>
+                <ellipse id="Oval-1-Copy-3" stroke="#979797" fill="#9FC959" filter="url(#filter-3)" sketch:type="MSShapeGroup" cx="322.383721" cy="65.9883721" rx="49.7093023" ry="49.7093023"></ellipse>
+                <g id="Page-1-Copy" transform="translate(300.581395, 44.186047)">
+                    <mask id="mask-5" sketch:name="Clip 2" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M0,39.2372248 C7.04244186,30.039933 15.425,22.0918318 25.7325581,15.7316242 C21.9959302,17.4093987 18.4604651,19.3547844 15.0534884,21.4626663 C11.65,23.5690249 8.28081395,25.7373351 5.60465116,28.9161694 C5.1255814,27.804593 4.64883721,26.8595754 4.30930233,25.8785038 C3.35290698,23.1180976 3.50755814,20.3328091 4.34534884,17.5856057 C5.10872093,15.0836702 6.44186047,12.8127841 8.28023256,10.7602524 C9.8127907,9.04896306 11.5412791,7.56313733 13.7715116,6.56023035 C15.5343023,5.76755299 17.3831395,5.19881587 19.3127907,4.79409847 C21.9325581,4.24465779 24.5738372,3.87294745 27.2604651,3.66474904 C29.7755814,3.47026126 32.2965116,3.22042317 34.7767442,2.81570577 C36.8267442,2.48157271 38.8302326,1.91334339 40.8372093,1.39589417 C41.8011628,1.14707168 42.7244186,0.77637695 43.7651163,0.427517663 C43.7651163,0.687003974 43.7918605,0.920084634 43.7610465,1.14757948 C43.480814,3.19858772 43.2430233,5.25568958 42.8901163,7.2970496 C42.4872093,9.630903 42.0523256,11.9642486 41.4936047,14.272712 C41.0360465,16.1632551 40.4505814,18.0375486 39.7866279,19.8818818 C39.1622093,21.61653 38.427907,23.3278194 37.6226744,25.0055939 C36.1517442,28.0706807 33.7186047,30.4410958 30.5261628,32.2407426 C28.0215116,33.6529372 25.3744186,34.7726384 22.3883721,35.0676707 C20.5552326,35.2484479 18.677907,35.3901244 16.8523256,35.2448933 C14.5773256,35.0636083 12.4005814,34.4029592 10.4854651,33.2456807 C10.0401163,32.9765462 9.7622093,33.0359589 9.43430233,33.370092 C7.53023256,35.3088762 5.91453488,37.4208206 4.50872093,39.655145 C4.20639535,40.1365403 3.90523256,40.2106793 3.29244186,40.0172071 C2.25755814,39.6896754 1.16395349,39.5043281 0,39.2372248" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-5)"></path>
+                </g>
+                <text id="" sketch:type="MSTextLayer" font-family="FontAwesome" font-size="52.3255814" font-weight="normal" fill="#9FC959">
+                    <tspan x="52.9069767" y="190.930233"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

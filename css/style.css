@@ -1,0 +1,237 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'oswald-light';
+	color: #fff;
+}
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: stretch;
+}
+
+.menu {
+	background-color: #FA0E6A;
+	height: 50px;
+	width: 100%;
+	padding: 0px 20px;
+	margin: 0;
+   display: flex;
+   justify-content: space-between;
+}
+
+.container {
+
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+
+.container-top {
+	flex: 3 0 0;
+	display: flex;
+	flex-direction: row ;
+	align-items: stretch;
+}
+
+.top { 
+	background: #898D90;
+	height: 65vh;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.60);
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+.btm {
+	height:35vh;
+	background: #584E52;
+	flex-flow: wrap;
+	
+}
+
+
+.primary {
+	flex: 1 0 0;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.secondary {
+	flex: 1 0 0;
+	}
+
+.flex {
+	display: flex;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.row {
+	flex-direction: row;
+}
+.primary ul {
+	list-style: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: .8em;
+}
+
+.primary li {
+	height: 2em;
+	line-height: 2em;
+	border-bottom: 1px solid #979797;
+}
+/*
+.small-icon{
+	margin-right: 30px;
+	line-height: 2em;
+}
+*/
+/*
+	
+	.number {
+	font-weight: bold;
+	}	
+*/
+
+	
+
+.dial_inside {
+
+	position: absolute;
+	top:143px;
+	left:29px;
+	height: 20em; 
+	width:20em; 
+	border-radius:50%; 
+	background-color: #D8D8D8; 
+	margin: 0 auto;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.50); display: flex; align-items: center;
+}
+
+.dial_outside {
+	
+	position: relative;
+	height: 21em;
+	width: 21em;
+	border-radius: 50%;	
+/* background-image: radial-gradient(50% 100%, #FAD961 0%, #F16722 100%); */
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.50);	
+	
+	background-image: radial-gradient(50% 100%, #F8E291 0%, #F16722 100%);
+	border: 1px solid #979797;background-size: 300% 300%;
+	
+		}
+
+.dial_small{
+	width: 120px; 
+	height: 120px; 
+	border-radius: 50%; 
+	background-color: #dbdbdb;
+	margin-right: 20px;
+}
+
+.link_moreinfo {
+	font-size: 1em;
+	color: #fff;
+	font-family: 'oswald-light';
+	letter-spacing: .05em;
+}
+
+.logo {
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+	margin-right: 40px;
+}
+
+
+nav ul {
+	list-style-type: none;
+	font-family: sans-serif;
+	
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	}
+
+nav li a {
+	text-decoration: none;
+	color: #000;
+}
+
+nav li a:hover {
+	color: #fff;
+	transition: #fff 0.8s ease;
+}
+
+
+.grid_to {
+	display: block;
+	content: "f062";
+	font-size: 2.5em;
+	margin-left: 10px;
+	color: #9FC959;
+}
+
+
+.update {
+	font-size: .8em;
+	font-family: 'oswald';
+	color: #fff;
+}
+
+.secondary_value{
+	font-family: 'oswald';
+	font-size: 3em;
+	color: #fff;
+}
+
+.link_moreinfo a{
+	text-decoration: none !important;
+	color: #fff !important;
+	}
+	
+	.link_moreinfo a:hover{
+		color: #FA0E6A;
+	}
+
+/*
+/* Create the animation blocks */
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/* Spinning, gradient circle; CSS only! */
+#advanced {
+	width: 21em;
+	height: 21em;
+	
+	background-image: radial-gradient(50% 100%, #FAD961 0%, #F16722 100%);
+	
+	animation-name: spin; 
+	animation-duration: 4s;
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+}
