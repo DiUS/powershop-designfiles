@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .top { 
 	background: #898D90;
-	height: 65vh;
+	height: 60vh;
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.60);
 	padding: 20px;
 	display: flex;
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	position: absolute;
 	top:143px;
-	left:29px;
+	left:28px;
 	height: 20em; 
 	width:20em; 
 	border-radius:50%; 
@@ -126,11 +126,9 @@ h1, h2, h3, h4, h5, h6 {
 	height: 21em;
 	width: 21em;
 	border-radius: 50%;	
-/* background-image: radial-gradient(50% 100%, #FAD961 0%, #F16722 100%); */
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.50);	
-	
-	background-image: radial-gradient(50% 100%, #F8E291 0%, #F16722 100%);
-	border: 1px solid #979797;background-size: 300% 300%;
+	background-image: linear-gradient (-180deg, #FAD961 0%, #f8de16 100%);
+	background-size: 100% 100%;
 	
 		}
 
@@ -231,7 +229,34 @@ nav li a:hover {
 	background-image: radial-gradient(50% 100%, #FAD961 0%, #F16722 100%);
 	
 	animation-name: spin; 
-	animation-duration: 4s;
+	animation-duration: 8s;
 	animation-iteration-count: infinite; 
-	animation-timing-function: linear;
+	animation-timing-function:  linear;
+}
+
+
+.dial_triangle {
+	position: relative;
+	left: 155px;
+	top:-2px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #898d90 transparent transparent  transparent;
+	}
+	
+.feedback {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top:-340px;
+	left:230px;
+	z-index: 1;
+	width: 6em;
+	height: 6em;
+	border-radius: 50%;
+	background-color: #9FC959;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.50);
 }
